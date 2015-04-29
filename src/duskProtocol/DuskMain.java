@@ -31,7 +31,7 @@ public class DuskMain {
 	    
 	    
 	    Level level = new Level();
-	    level.generateLevel();
+	    level.generateLevel(winX, winY);
 	    
 		while (!Display.isCloseRequested()){
 			//runtime loop
