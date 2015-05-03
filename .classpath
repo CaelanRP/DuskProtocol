@@ -8,5 +8,8 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="lib/jar/jinput.jar"/>
+	<classpathentry kind="lib" path="lib/jar/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="lib/jar"/>
+	<classpathentry kind="lib" path="C:/Users/Caelan/Desktop/Work/Code/DuskProtocol/lib/jar/slick-util.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
