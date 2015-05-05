@@ -27,10 +27,10 @@ public class Cell {
 		this.filled = filled;
 
 		color = new float[4];
-		color[0] = 1f;
-		color[1] = 1f;
-		color[2] = 1f;
-		color[3] = 0.3f;
+		color[0] = 0.5f;
+		color[1] = 0.5f;
+		color[2] = 0.5f;
+		color[3] = 0.6f;
 		
 		try {
 			texture = TextureLoader.getTexture("PNG", ResourceLoader.getResourceAsStream("img/white.png"));

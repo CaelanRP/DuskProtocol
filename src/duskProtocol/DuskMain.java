@@ -1,5 +1,7 @@
 package duskProtocol;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 
 import org.lwjgl.LWJGLException;
@@ -47,7 +49,14 @@ public class DuskMain {
 	    
 	    
 	    Level level = new Level(winX, winY);
-	    level.generateLevel();
+	    File f = new File("levels/level.txt");
+	    
+	    try {
+			level.generateLevel(f);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	    
 		while (!Display.isCloseRequested()){
 			//runtime loop
